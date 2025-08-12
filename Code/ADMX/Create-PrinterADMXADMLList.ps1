@@ -13,11 +13,11 @@ rm "$($FilePath)_presentation.xml";
 forEach ( $context in $contexts) {
     foreach ( $letter in $letters ) {
 
-   $xml = "<policy name=`"Printer_$($letter)_$($context)`" class=`"$($context)`" displayName=`"`$(string.Printer_$($letter)_$($context)_DisplayName)`" explainText=`"`$(string.Printer_$($letter)_$($context)_ExplainText)`" presentation=`"`$(presentation.Printer_$($letter)_$($context)_Presentation)`" key=`"Software\Policies\weatherlights.com\NetworkDriveMapping\Policies`" valueName=`"$($letter)`">
+   $xml = "<policy name=`"Printer_$($letter)_$($context)`" class=`"$($context)`" displayName=`"`$(string.Printer_$($letter)_$($context)_DisplayName)`" explainText=`"`$(string.Printer_$($letter)_$($context)_ExplainText)`" presentation=`"`$(presentation.Printer_$($letter)_$($context)_Presentation)`" key=`"Software\Policies\weatherlights.com\NetworkPrintMapping\Policies`" valueName=`"$($letter)`">
       <parentCategory ref=`"Printers`" />
       <supportedOn ref=`"SupportedOn`" />
       <elements>
-        <text id=`"Printer_$($letter)_$($context)_Path`" key=`"Software\Policies\weatherlights.com\NetworkDriveMapping\Policies\$($letter)`" valueName=`"Path`" required=`"true`" />
+        <text id=`"Printer_$($letter)_$($context)_Path`" key=`"Software\Policies\weatherlights.com\NetworkPrintMapping\Policies\$($letter)`" valueName=`"Path`" required=`"true`" />
         <enum id=`"Printer_$($letter)_$($context)_Operation`" valueName=`"Operation`" required=`"true`">
             <item displayName=`"`$(string.Add)`">
                 <value>
