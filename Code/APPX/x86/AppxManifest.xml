@@ -20,7 +20,7 @@
   </Properties>
   <Applications>
     <Application EntryPoint="Windows.FullTrustApplication" Executable="NetworkPrintMappingStart.exe" Id="IntuneNetworkPrintMapping.exe">
-      <uap:VisualElements BackgroundColor="transparent" Description="Maps Network printers assigned by your administrator." DisplayName="Intune Printer Mapping" Square150x150Logo="Assets\IntuneNetworkPrintMapping.exeSquare150x150Logo.png" Square44x44Logo="Assets\IntuneNetworkPrintMapping.exeSquare44x44Logo.png">
+      <uap:VisualElements BackgroundColor="transparent" Description="Maps network printers assigned by your administrator." DisplayName="Intune Printer Mapping" Square150x150Logo="Assets\IntuneNetworkPrintMapping.exeSquare150x150Logo.png" Square44x44Logo="Assets\IntuneNetworkPrintMapping.exeSquare44x44Logo.png">
         <uap:InitialRotationPreference>
           <uap:Rotation Preference="portrait"/>
           <uap:Rotation Preference="landscape"/>
