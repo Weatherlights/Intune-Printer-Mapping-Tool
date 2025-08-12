@@ -1,0 +1,12 @@
+C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\bin\Release\IntuneNetworkPrintMapping.exe.config
+C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\bin\Release\IntuneNetworkPrintMapping.exe
+C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\bin\Release\IntuneNetworkPrintMapping.pdb
+C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping.csproj.AssemblyReference.cache
+C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping.csproj.CoreCompileInputs.cache
+C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping.exe
+C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping.pdb
+C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\obj\Release\UnconfiguredNoticeWindow.g.cs
+C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping_MarkupCompile.cache
+C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping_MarkupCompile.lref
+C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\obj\Release\UnconfiguredNoticeWindow.baml
+C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping.g.resources

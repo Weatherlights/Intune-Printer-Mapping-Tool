@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntuneNetworkPrintMapping", "IntuneNetworkPrintMapping\IntuneNetworkPrintMapping.csproj", "{78CDF814-5144-45EE-A291-36D5C11E383D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM64 = Debug|ARM64
+		Release|Any CPU = Release|Any CPU
+		Release|ARM64 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78CDF814-5144-45EE-A291-36D5C11E383D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78CDF814-5144-45EE-A291-36D5C11E383D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78CDF814-5144-45EE-A291-36D5C11E383D}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{78CDF814-5144-45EE-A291-36D5C11E383D}.Debug|ARM64.Build.0 = Debug|ARM64
+		{78CDF814-5144-45EE-A291-36D5C11E383D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78CDF814-5144-45EE-A291-36D5C11E383D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78CDF814-5144-45EE-A291-36D5C11E383D}.Release|ARM64.ActiveCfg = Release|ARM64
+		{78CDF814-5144-45EE-A291-36D5C11E383D}.Release|ARM64.Build.0 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9703AD01-CCC8-4AAF-B428-54451EFEC714}
+	EndGlobalSection
+EndGlobal
