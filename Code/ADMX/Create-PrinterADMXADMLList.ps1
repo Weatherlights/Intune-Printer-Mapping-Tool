@@ -14,7 +14,7 @@ forEach ( $context in $contexts) {
     foreach ( $letter in $letters ) {
 
    $xml = "<policy name=`"Printer_$($letter)_$($context)`" class=`"$($context)`" displayName=`"`$(string.Printer_$($letter)_$($context)_DisplayName)`" explainText=`"`$(string.Printer_$($letter)_$($context)_ExplainText)`" presentation=`"`$(presentation.Printer_$($letter)_$($context)_Presentation)`" key=`"Software\Policies\weatherlights.com\NetworkDriveMapping\Policies`" valueName=`"$($letter)`">
-      <parentCategory ref=`"Policy`" />
+      <parentCategory ref=`"Printers`" />
       <supportedOn ref=`"SupportedOn`" />
       <elements>
         <text id=`"Printer_$($letter)_$($context)_Path`" key=`"Software\Policies\weatherlights.com\NetworkDriveMapping\Policies\$($letter)`" valueName=`"Path`" required=`"true`" />
@@ -24,9 +24,9 @@ forEach ( $context in $contexts) {
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName=`"`$(string.Remove)`">
+            <item displayName=`"`$(string.Delete)`">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>

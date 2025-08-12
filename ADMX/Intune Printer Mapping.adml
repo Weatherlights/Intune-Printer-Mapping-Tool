@@ -18,6 +18,8 @@ Configurations will only be applied when this configuration is set to Enabled.
       <string id="UpdateInterval">Update interval</string>
       <string id="UpdateInterval_Help">Configures how often Intune Network Drive Mapping will check for updates (in seconds). Default ist 10800.</string>
     
+    <string id="Add">Add</string>    
+    <string id="Delete">Delete</string>   
     
 <string id="Printer_1_User_DisplayName">Printer operation 1</string>
     <string id="Printer_1_User_ExplainText">Printer operation 1. Specify the printer path and the operation (Add or Remove).</string>

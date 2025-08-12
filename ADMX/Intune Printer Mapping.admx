@@ -45,7 +45,26 @@
       </elements>
     </policy>
     
-    
+    <policy name="Printer_0_User" class="User" displayName="$(string.Printer_0_User_DisplayName)" explainText="$(string.Printer_0_User_ExplainText)" presentation="$(presentation.Printer_0_User_Presentation)" key="Software\Policies\weatherlights.com\NetworkDriveMapping\Policies" valueName="0">
+      <parentCategory ref="Printers" />
+      <supportedOn ref="SupportedOn" />
+      <elements>
+        <text id="Printer_0_User_Path" key="Software\Policies\weatherlights.com\NetworkDriveMapping\Policies\0" valueName="Path" required="true" />
+        <enum id="Printer_0_User_Operation" valueName="Operation" required="true">
+            <item displayName="$(string.Add)">
+                <value>
+                    <string>Add</string>
+                </value>
+            </item>
+            <item displayName="$(string.Delete)">
+                <value>
+                    <string>Delete</string>
+                </value>
+            </item>
+        </enum>
+        <boolean id="Printer_0_User_SetDefault" valueName="SetDefault" />
+      </elements>
+    </policy>
 <policy name="Printer_1_User" class="User" displayName="$(string.Printer_1_User_DisplayName)" explainText="$(string.Printer_1_User_ExplainText)" presentation="$(presentation.Printer_1_User_Presentation)" key="Software\Policies\weatherlights.com\NetworkDriveMapping\Policies" valueName="1">
       <parentCategory ref="Printers" />
       <supportedOn ref="SupportedOn" />
@@ -57,9 +76,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -77,9 +96,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -97,9 +116,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -117,9 +136,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -137,9 +156,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -157,9 +176,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -177,9 +196,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -197,9 +216,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -217,9 +236,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -237,9 +256,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -257,9 +276,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -277,9 +296,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -297,9 +316,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -317,9 +336,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -337,9 +356,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -357,9 +376,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -377,9 +396,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -397,9 +416,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -417,9 +436,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -437,9 +456,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -457,9 +476,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -477,9 +496,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -497,9 +516,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -517,9 +536,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -537,9 +556,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -557,9 +576,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -577,9 +596,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -597,9 +616,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -617,13 +636,33 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
         <boolean id="Printer_29_User_SetDefault" valueName="SetDefault" />
+      </elements>
+    </policy>
+<policy name="Printer_0_Machine" class="Machine" displayName="$(string.Printer_0_Machine_DisplayName)" explainText="$(string.Printer_0_Machine_ExplainText)" presentation="$(presentation.Printer_0_Machine_Presentation)" key="Software\Policies\weatherlights.com\NetworkDriveMapping\Policies" valueName="0">
+      <parentCategory ref="Printers" />
+      <supportedOn ref="SupportedOn" />
+      <elements>
+        <text id="Printer_0_Machine_Path" key="Software\Policies\weatherlights.com\NetworkDriveMapping\Policies\0" valueName="Path" required="true" />
+        <enum id="Printer_0_Machine_Operation" valueName="Operation" required="true">
+            <item displayName="$(string.Add)">
+                <value>
+                    <string>Add</string>
+                </value>
+            </item>
+            <item displayName="$(string.Delete)">
+                <value>
+                    <string>Delete</string>
+                </value>
+            </item>
+        </enum>
+        <boolean id="Printer_0_Machine_SetDefault" valueName="SetDefault" />
       </elements>
     </policy>
 <policy name="Printer_1_Machine" class="Machine" displayName="$(string.Printer_1_Machine_DisplayName)" explainText="$(string.Printer_1_Machine_ExplainText)" presentation="$(presentation.Printer_1_Machine_Presentation)" key="Software\Policies\weatherlights.com\NetworkDriveMapping\Policies" valueName="1">
@@ -637,9 +676,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -657,9 +696,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -677,9 +716,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -697,9 +736,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -717,9 +756,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -737,9 +776,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -757,9 +796,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -777,9 +816,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -797,9 +836,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -817,9 +856,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -837,9 +876,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -857,9 +896,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -877,9 +916,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -897,9 +936,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -917,9 +956,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -937,9 +976,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -957,9 +996,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -977,9 +1016,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -997,9 +1036,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -1017,9 +1056,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -1037,9 +1076,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -1057,9 +1096,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -1077,9 +1116,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -1097,9 +1136,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -1117,9 +1156,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -1137,9 +1176,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -1157,9 +1196,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -1177,9 +1216,9 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
@@ -1197,16 +1236,16 @@
                     <string>Add</string>
                 </value>
             </item>
-            <item displayName="$(string.Remove)">
+            <item displayName="$(string.Delete)">
                 <value>
-                    <string>Remove</string>
+                    <string>Delete</string>
                 </value>
             </item>
         </enum>
         <boolean id="Printer_29_Machine_SetDefault" valueName="SetDefault" />
       </elements>
     </policy>
-    
+
 
   </policies>
 </policyDefinitions>
