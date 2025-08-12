@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions" revision="1.0.0.0" schemaVersion="1.0">
+  <displayName>Intune-Printer-Mapping</displayName>
+  <description>Intune-Printer-Mapping</description>
+  <resources>
+    <stringTable>
+      <string id="IntunePrinterMapping">Intune-Printer-Mapping</string>
+      <string id="Configuration">Configuration</string>
+      <string id="Printers">Printers</string>
+      <string id="SupportedOn">Windows 10 and Windows 11</string>
+      <string id="Enabled">Enable Intune Printer Mapping</string>
+      <string id="Enabled_Help">This enables Intune Printer Mapping.
+
+Configurations will only be applied when this configuration is set to Enabled.
+</string>
+      <string id="RefreshInterval">Refresh interval</string>
+      <string id="RefreshInterval_Help">Sets the refresh interval in ms. Default is 10000.</string>
+      <string id="UpdateInterval">Update interval</string>
+      <string id="UpdateInterval_Help">Configures how often Intune Network Drive Mapping will check for updates (in seconds). Default ist 10800.</string>
+    
+    </stringTable>
+    <presentationTable>
+      <presentation id="RefreshInterval">
+        <decimalTextBox  refId="RefreshInterval">
+          <label>Refresh interval</label>
+          <defaultValue>10000</defaultValue>
+        </decimalTextBox >
+      </presentation>
+      <presentation id="UpdateInterval">
+        <decimalTextBox  refId="UpdateInterval">
+          <label>Update interval</label>
+          <defaultValue>10800</defaultValue>
+        </decimalTextBox >
+      </presentation>
+      
+    </presentationTable>
+  </resources>
+</policyDefinitionResources>
