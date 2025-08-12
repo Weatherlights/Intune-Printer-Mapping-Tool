@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package IgnorableNamespaces="build uap rescap desktop" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10">
+  <Identity Name="HaukeGtze.IntunePrinterMapping" ProcessorArchitecture="x86" Publisher="CN=BFF8D712-89E6-4205-9504-3AB824A94414" Version="1.0.2.0"/>
+  <Resources>
+    <Resource uap:Scale="100"/>
+    <Resource uap:Scale="125"/>
+    <Resource uap:Scale="150"/>
+    <Resource uap:Scale="200"/>
+    <Resource uap:Scale="400"/>
+    <Resource Language="en-US"/>
+  </Resources>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust"/>
+  </Capabilities>
+  <Properties>
+    <PublisherDisplayName>Hauke Hasselberg</PublisherDisplayName>
+    <DisplayName>Intune Printer Mapping</DisplayName>
+    <Logo>Assets\Store50x50Logo.png</Logo>
+    <Description>Maps Network printers based on ADMX backed policies.</Description>
+  </Properties>
+  <Applications>
+    <Application EntryPoint="Windows.FullTrustApplication" Executable="NetworkPrintMappingStart.exe" Id="IntuneNetworkPrintMapping.exe">
+      <uap:VisualElements BackgroundColor="transparent" Description="Maps Network printers assigned by your administrator." DisplayName="Intune Printer Mapping" Square150x150Logo="Assets\IntuneNetworkPrintMapping.exeSquare150x150Logo.png" Square44x44Logo="Assets\IntuneNetworkPrintMapping.exeSquare44x44Logo.png">
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="portrait"/>
+          <uap:Rotation Preference="landscape"/>
+        </uap:InitialRotationPreference>
+        <uap:DefaultTile Square310x310Logo="Assets\IntuneNetworkPrintMapping.exeSquare310x310Logo.png" Square71x71Logo="Assets\IntuneNetworkPrintMapping.exeSquare71x71Logo.png" Wide310x150Logo="Assets\IntuneNetworkPrintMapping.exeWide310x150Logo.png"/>
+        <uap:SplashScreen Image="Assets\IntuneNetworkPrintMapping.exeSplashScreen.png"/>
+        <uap:LockScreen BadgeLogo="Assets\IntuneNetworkPrintMapping.exeBadgeLogo.png" Notification="badge"/>
+      </uap:VisualElements>
+      <Extensions>
+        <desktop:Extension Category="windows.startupTask" EntryPoint="Windows.FullTrustApplication" Executable="IntuneNetworkPrintMapping.exe">
+          <desktop:StartupTask DisplayName="Intune Printer Mapping" Enabled="true" TaskId="IntuneNetworkPrintMapping.exe"/>
+        </desktop:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Dependencies>
+    <TargetDeviceFamily MaxVersionTested="10.0.18362.0" MinVersion="10.0.18362.0" Name="Windows.Desktop"/>
+  </Dependencies>
+  <build:Metadata>
+    <build:Item Name="OperatingSystem" Version="10.0.26100.4484"/>
+    <build:Item Name="AdvancedInstaller" Version="16.5 (8df7ad95)"/>
+    <build:Item Name="SignTool.exe" Version="10.0.26100.3916"/>
+    <build:Item Name="MakePri.exe" Version="10.0.18362.1"/>
+  </build:Metadata>
+</Package>
