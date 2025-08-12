@@ -18,7 +18,7 @@ forEach ( $context in $contexts) {
       <supportedOn ref=`"SupportedOn`" />
       <elements>
         <text id=`"Printer_$($letter)_$($context)_Path`" key=`"Software\Policies\weatherlights.com\NetworkPrintMapping\Policies\$($letter)`" valueName=`"Path`" required=`"true`" />
-        <enum id=`"Printer_$($letter)_$($context)_Operation`" valueName=`"Operation`" required=`"true`">
+        <enum id=`"Printer_$($letter)_$($context)_Operation`" key=`"Software\Policies\weatherlights.com\NetworkPrintMapping\Policies\$($letter)`" valueName=`"Operation`" required=`"true`">
             <item displayName=`"`$(string.Add)`">
                 <value>
                     <string>Add</string>
@@ -30,7 +30,7 @@ forEach ( $context in $contexts) {
                 </value>
             </item>
         </enum>
-        <boolean id=`"Printer_$($letter)_$($context)_SetDefault`" valueName=`"SetDefault`" />
+        <boolean id=`"Printer_$($letter)_$($context)_SetDefault`" key=`"Software\Policies\weatherlights.com\NetworkPrintMapping\Policies\$($letter)`" valueName=`"SetDefault`" />
       </elements>
     </policy>" 
 
