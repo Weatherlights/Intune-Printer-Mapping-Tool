@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hauke\\source\\repos\\IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj": {}
+    "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hauke\\source\\repos\\IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj": {
+    "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hauke\\source\\repos\\IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj",
+        "projectUniqueName": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj",
         "projectName": "IntuneNetworkPrintMapping",
-        "projectPath": "C:\\Users\\hauke\\source\\repos\\IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj",
+        "projectPath": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj",
         "packagesPath": "C:\\Users\\hauke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hauke\\source\\repos\\IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping\\obj\\",
+        "outputPath": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "UsingMicrosoftNETSdk": false,

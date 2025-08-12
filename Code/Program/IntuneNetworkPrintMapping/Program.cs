@@ -14,7 +14,7 @@ namespace IntuneNetworkPrintMapping
             LogWriter myLogWriter = new LogWriter("Program");
             myLogWriter.LogWrite("Intune Network Print Mapping has started.");
             PolicyRetrival myPolicyRetrival = new PolicyRetrival();
-           if (!myPolicyRetrival.isEnabled())
+           if (!myPolicyRetrival.isEnabled() && args.Contains("Startmenu"))
             {
                 myLogWriter.LogWrite("Has been started from start menu but configuration is missing. Will display user hint.", 2);
                 UnconfiguredNoticeWindow myUnconfiguredNoticeWindow = new UnconfiguredNoticeWindow();

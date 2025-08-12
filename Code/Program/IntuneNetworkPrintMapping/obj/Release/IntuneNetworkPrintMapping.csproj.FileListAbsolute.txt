@@ -10,3 +10,16 @@ C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\
 C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping_MarkupCompile.lref
 C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\obj\Release\UnconfiguredNoticeWindow.baml
 C:\Users\hauke\source\repos\IntuneNetworkPrintMapping\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping.g.resources
+C:\Users\hauke\GitHub\Intune-Printer-Mapping-Tool\Code\Program\IntuneNetworkPrintMapping\bin\Release\IntuneNetworkPrintMapping.exe.config
+C:\Users\hauke\GitHub\Intune-Printer-Mapping-Tool\Code\Program\IntuneNetworkPrintMapping\bin\Release\IntuneNetworkPrintMapping.exe
+C:\Users\hauke\GitHub\Intune-Printer-Mapping-Tool\Code\Program\IntuneNetworkPrintMapping\bin\Release\IntuneNetworkPrintMapping.pdb
+C:\Users\hauke\GitHub\Intune-Printer-Mapping-Tool\Code\Program\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping.csproj.AssemblyReference.cache
+C:\Users\hauke\GitHub\Intune-Printer-Mapping-Tool\Code\Program\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping.exe.config
+C:\Users\hauke\GitHub\Intune-Printer-Mapping-Tool\Code\Program\IntuneNetworkPrintMapping\obj\Release\UnconfiguredNoticeWindow.g.cs
+C:\Users\hauke\GitHub\Intune-Printer-Mapping-Tool\Code\Program\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping_MarkupCompile.cache
+C:\Users\hauke\GitHub\Intune-Printer-Mapping-Tool\Code\Program\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping_MarkupCompile.lref
+C:\Users\hauke\GitHub\Intune-Printer-Mapping-Tool\Code\Program\IntuneNetworkPrintMapping\obj\Release\UnconfiguredNoticeWindow.baml
+C:\Users\hauke\GitHub\Intune-Printer-Mapping-Tool\Code\Program\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping.g.resources
+C:\Users\hauke\GitHub\Intune-Printer-Mapping-Tool\Code\Program\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping.csproj.CoreCompileInputs.cache
+C:\Users\hauke\GitHub\Intune-Printer-Mapping-Tool\Code\Program\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping.exe
+C:\Users\hauke\GitHub\Intune-Printer-Mapping-Tool\Code\Program\IntuneNetworkPrintMapping\obj\Release\IntuneNetworkPrintMapping.pdb
