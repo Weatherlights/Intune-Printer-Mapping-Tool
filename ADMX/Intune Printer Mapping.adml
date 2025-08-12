@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions" revision="1.0.0.0" schemaVersion="1.0">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions" revision="1.0.2.0" schemaVersion="1.0">
   <displayName>Intune-Printer-Mapping</displayName>
   <description>Intune-Printer-Mapping</description>
   <resources>
@@ -21,6 +21,10 @@ Configurations will only be applied when this configuration is set to Enabled.
     <string id="Add">Add</string>    
     <string id="Delete">Delete</string>   
     
+<string id="Printer_0_User_DisplayName">Printer operation 0</string>
+    <string id="Printer_0_User_ExplainText">Printer operation 0. Specify the printer path and the operation (Add or Remove).</string>
+
+
 <string id="Printer_1_User_DisplayName">Printer operation 1</string>
     <string id="Printer_1_User_ExplainText">Printer operation 1. Specify the printer path and the operation (Add or Remove).</string>
 
@@ -137,6 +141,10 @@ Configurations will only be applied when this configuration is set to Enabled.
     <string id="Printer_29_User_ExplainText">Printer operation 29. Specify the printer path and the operation (Add or Remove).</string>
 
 
+<string id="Printer_0_Machine_DisplayName">Printer operation 0</string>
+    <string id="Printer_0_Machine_ExplainText">Printer operation 0. Specify the printer path and the operation (Add or Remove).</string>
+
+
 <string id="Printer_1_Machine_DisplayName">Printer operation 1</string>
     <string id="Printer_1_Machine_ExplainText">Printer operation 1. Specify the printer path and the operation (Add or Remove).</string>
 
@@ -251,9 +259,6 @@ Configurations will only be applied when this configuration is set to Enabled.
 
 <string id="Printer_29_Machine_DisplayName">Printer operation 29</string>
     <string id="Printer_29_Machine_ExplainText">Printer operation 29. Specify the printer path and the operation (Add or Remove).</string>
-
-
-    
     
     
     </stringTable>
@@ -270,7 +275,14 @@ Configurations will only be applied when this configuration is set to Enabled.
           <defaultValue>10800</defaultValue>
         </decimalTextBox >
       </presentation>
-      
+
+<presentation id="Printer_0_User_Presentation">
+    <textBox refId="Printer_0_User_Path"><label>Path</label><defaultValue></defaultValue></textBox>
+    <dropdownList refId="Printer_0_User_Operation">Operation</dropdownList>
+    <checkBox refId="Printer_0_User_SetDefault">Set Default</checkBox>
+</presentation>
+
+
 <presentation id="Printer_1_User_Presentation">
     <textBox refId="Printer_1_User_Path"><label>Path</label><defaultValue></defaultValue></textBox>
     <dropdownList refId="Printer_1_User_Operation">Operation</dropdownList>
@@ -471,6 +483,13 @@ Configurations will only be applied when this configuration is set to Enabled.
     <textBox refId="Printer_29_User_Path"><label>Path</label><defaultValue></defaultValue></textBox>
     <dropdownList refId="Printer_29_User_Operation">Operation</dropdownList>
     <checkBox refId="Printer_29_User_SetDefault">Set Default</checkBox>
+</presentation>
+
+
+<presentation id="Printer_0_Machine_Presentation">
+    <textBox refId="Printer_0_Machine_Path"><label>Path</label><defaultValue></defaultValue></textBox>
+    <dropdownList refId="Printer_0_Machine_Operation">Operation</dropdownList>
+    <checkBox refId="Printer_0_Machine_SetDefault">Set Default</checkBox>
 </presentation>
 
 
