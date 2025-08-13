@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\hauke\GitHub\Intune-Printer-Mapping-Tool\Code\Program\IntuneNetworkPrintMapping\obj\Debug\
+C:\Users\hauke\GitHub\Intune-Printer-Mapping-Tool\Code\Program\IntuneNetworkPrintMapping\obj\ARM64\Release\
 IntuneNetworkPrintMapping
 none
 false
-DEBUG;TRACE
+TRACE
 
 1-1862082461
 

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions" revision="1.0.3.1" schemaVersion="1.0">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions" revision="1.0.4.0" schemaVersion="1.0">
   <displayName>Intune-Printer-Mapping</displayName>
   <description>Intune-Printer-Mapping</description>
   <resources>
@@ -15,8 +15,12 @@ Configurations will only be applied when this configuration is set to Enabled.
 </string>
       <string id="RefreshInterval">Refresh interval</string>
       <string id="RefreshInterval_Help">Sets the refresh interval in ms. Default is 10000.</string>
+
       <string id="UpdateInterval">Update interval</string>
-      <string id="UpdateInterval_Help">Configures how often Intune Network Drive Mapping will check for updates (in seconds). Default ist 10800.</string>
+      <string id="UpdateInterval_Help">Configures how often Intune Network Print Mapping will check for updates (in seconds). Default ist 10800.</string>
+      
+      <string id="PrinterConfigurationRefreshInterval">Printer configuration refresh interval</string>
+      <string id="PrinterConfigurationRefreshInterval_Help">Configures how often Intune Print Mapping will reapply configured printer configurations (in seconds). Default ist 3600.</string>
     
     <string id="Add">Add</string>    
     <string id="Delete">Delete</string>   
@@ -273,6 +277,12 @@ Configurations will only be applied when this configuration is set to Enabled.
         <decimalTextBox  refId="UpdateInterval">
           <label>Update interval</label>
           <defaultValue>10800</defaultValue>
+        </decimalTextBox >
+      </presentation>
+      <presentation id="PrinterConfigurationRefreshInterval">
+        <decimalTextBox  refId="PrinterConfigurationRefreshInterval">
+          <label>Printer configuration refresh interval</label>
+          <defaultValue>3600</defaultValue>
         </decimalTextBox >
       </presentation>
 

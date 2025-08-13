@@ -40,15 +40,21 @@ namespace IntuneNetworkPrintMapping
                                     if (myPrinterSettings.IsPrinterInstalled(policy.PrinterName) == false)
                                     {
                                         PrinterSettings.AddPrinter(policy.PrinterName);
-                                        myLogWriter.LogWrite("Mapped printer " + policy.PrinterName, 1);
-                                        if (policy.setDefault)
+                                        Thread.Sleep(500);
+                                        if (myPrinterSettings.IsPrinterInstalled(policy.PrinterName) == true)
                                         {
-                                            PrinterSettings.SetDefaultPrinter(policy.PrinterName);
-                                            myLogWriter.LogWrite("Set " + policy.PrinterName + " as default printer", 1);
+                                            myLogWriter.LogWrite("Mapped printer " + policy.PrinterName, 1);
+                                            if (policy.setDefault)
+                                            {
+                                                PrinterSettings.SetDefaultPrinter(policy.PrinterName);
+                                                myLogWriter.LogWrite("Set " + policy.PrinterName + " as default printer", 1);
+                                            }
+                                        }
+                                        else
+                                        {
+                                            myLogWriter.LogWrite("Printer " + policy.PrinterName + " could not be mapped.", 2);
                                         }
                                     }
-
-
                                     if (policy.PrinterDisplayName != null)
                                         PrinterSettings.RenamePrinter(policy.PrinterName, policy.PrinterDisplayName);
 
@@ -80,6 +86,11 @@ namespace IntuneNetworkPrintMapping
         public void Execute()
         {
             DateTime dateLastUpdate = DateTime.Now;
+            DateTime dateLastPrinterConfigurationRefresh = DateTime.Now;
+            DateTime currentDate = DateTime.Now;
+            long elapsedTicks = 0;
+            TimeSpan elapsedSpan = new TimeSpan();
+
             NetworkChangeDetector myNetworkChangeDetector = new NetworkChangeDetector();
             myLogWriter.LogWrite("Initialized NetworkChangeDetector");
 
@@ -90,6 +101,7 @@ namespace IntuneNetworkPrintMapping
             int retryCount = 0;
             bool shouldRun = true;
             int updateInterval = myPolicyRetrival.getUpdateInterval();
+            int printerConfigurationRefreshInterval = myPolicyRetrival.getPrinterConfigurationRefreshIntervall();
             while (shouldRun)
             {
                 int sleepTime = myPolicyRetrival.getRefreshInterval();
@@ -107,15 +119,27 @@ namespace IntuneNetworkPrintMapping
                     retryCount = 1;
                 }
 
+                currentDate = DateTime.Now;
+                elapsedTicks = currentDate.Ticks - dateLastPrinterConfigurationRefresh.Ticks;
+                elapsedSpan = new TimeSpan(elapsedTicks);
+                if ((elapsedSpan.TotalSeconds >= printerConfigurationRefreshInterval))
+                {
+                    retryCount = myPolicyRetrival.getRetryCount();
+                    myLogWriter.LogWrite("Policy Refresh interval is expired.");
+                }
+
                 if (retryCount > 0)
                 {
                     MapPrinters();
+                    dateLastPrinterConfigurationRefresh = DateTime.Now;
                     Thread.Sleep(sleepTime);
                 }
                 else
                 {
                     if (retryCount == 0)
+                    {
                         myLogWriter.LogWrite("Will now go to sleep.");
+                    }
 
                     Thread.Sleep(sleepTime);
                     bool updatesReadyToInstall = false;
@@ -135,9 +159,9 @@ namespace IntuneNetworkPrintMapping
                                 myLogWriter.LogWrite("Will now restart Intune Network Print Mapping to install updates.", 1);
                             }
                     }
-                    DateTime currentDate = DateTime.Now;
-                    long elapsedTicks = currentDate.Ticks - dateLastUpdate.Ticks;
-                    TimeSpan elapsedSpan = new TimeSpan(elapsedTicks);
+                    currentDate = DateTime.Now;
+                    elapsedTicks = currentDate.Ticks - dateLastUpdate.Ticks;
+                    elapsedSpan = new TimeSpan(elapsedTicks);
 
                     if ((elapsedSpan.TotalSeconds >= updateInterval) && (updateInterval > 60))
                     {

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<policyDefinitions revision="1.0.3.1" schemaVersion="1.0">
+<policyDefinitions revision="1.0.4.0" schemaVersion="1.0">
   <policyNamespaces>
     <target prefix="IPM" namespace="Intune-Printer-Mapping.Configuration"/>
   </policyNamespaces>
@@ -42,6 +42,13 @@
       <supportedOn ref="SupportedOn"/>
       <elements>
         <decimal id="UpdateInterval" key="Software\Policies\weatherlights.com\NetworkPrintMapping" valueName="UpdateInterval" required="true" minValue="0" maxValue="100000"/>
+      </elements>
+    </policy>
+    <policy name="PrinterConfigurationRefreshInterval" class="Machine" displayName="$(string.PrinterConfigurationRefreshInterval)" presentation="$(presentation.PrinterConfigurationRefreshInterval)" explainText="$(string.PrinterConfigurationRefreshInterval_Help)" key="Software\Policies\weatherlights.com\NetworkPrintMapping" valueName="PrinterConfigurationRefreshInterval">
+      <parentCategory ref="Configuration"/>
+      <supportedOn ref="SupportedOn"/>
+      <elements>
+        <decimal id="PrinterConfigurationRefreshInterval" key="Software\Policies\weatherlights.com\NetworkPrintMapping" valueName="PrinterConfigurationRefreshInterval" required="true" minValue="0" maxValue="100000"/>
       </elements>
     </policy>
     

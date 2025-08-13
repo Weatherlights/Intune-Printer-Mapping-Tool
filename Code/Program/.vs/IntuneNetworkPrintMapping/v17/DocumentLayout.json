@@ -3,15 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|c:\\users\\hauke\\github\\intune-printer-mapping-tool\\code\\program\\intunenetworkprintmapping\\networkprintmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|solutionrelative:intunenetworkprintmapping\\networkprintmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|c:\\users\\hauke\\github\\intune-printer-mapping-tool\\code\\program\\intunenetworkprintmapping\\printermappingpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|solutionrelative:intunenetworkprintmapping\\printermappingpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|c:\\users\\hauke\\github\\intune-printer-mapping-tool\\code\\program\\intunenetworkprintmapping\\policyretrival.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|solutionrelative:intunenetworkprintmapping\\policyretrival.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|c:\\users\\hauke\\github\\intune-printer-mapping-tool\\code\\program\\intunenetworkprintmapping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|solutionrelative:intunenetworkprintmapping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|c:\\users\\hauke\\github\\intune-printer-mapping-tool\\code\\program\\intunenetworkprintmapping\\unconfigurednoticewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|c:\\users\\hauke\\github\\intune-printer-mapping-tool\\code\\program\\intunenetworkprintmapping\\printersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|solutionrelative:intunenetworkprintmapping\\printersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\intunenetworkprintmapping\\unconfigurednoticewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|solutionrelative:intunenetworkprintmapping\\unconfigurednoticewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|c:\\users\\hauke\\github\\intune-printer-mapping-tool\\code\\program\\intunenetworkprintmapping\\unconfigurednoticewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\intunenetworkprintmapping\\unconfigurednoticewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78CDF814-5144-45EE-A291-36D5C11E383D}|IntuneNetworkPrintMapping\\IntuneNetworkPrintMapping.csproj|solutionrelative:intunenetworkprintmapping\\unconfigurednoticewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,11 +38,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NetworkPrintMapping.cs",
+              "DocumentMoniker": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\NetworkPrintMapping.cs",
+              "RelativeDocumentMoniker": "IntuneNetworkPrintMapping\\NetworkPrintMapping.cs",
+              "ToolTip": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\NetworkPrintMapping.cs",
+              "RelativeToolTip": "IntuneNetworkPrintMapping\\NetworkPrintMapping.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAHwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T07:46:00.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PolicyRetrival.cs",
+              "DocumentMoniker": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\PolicyRetrival.cs",
+              "RelativeDocumentMoniker": "IntuneNetworkPrintMapping\\PolicyRetrival.cs",
+              "ToolTip": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\PolicyRetrival.cs",
+              "RelativeToolTip": "IntuneNetworkPrintMapping\\PolicyRetrival.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAAANcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T07:45:43.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrinterMappingPolicy.cs",
+              "DocumentMoniker": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\PrinterMappingPolicy.cs",
+              "RelativeDocumentMoniker": "IntuneNetworkPrintMapping\\PrinterMappingPolicy.cs",
+              "ToolTip": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\PrinterMappingPolicy.cs",
+              "RelativeToolTip": "IntuneNetworkPrintMapping\\PrinterMappingPolicy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T07:42:11.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PrinterSettings.cs",
+              "DocumentMoniker": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\PrinterSettings.cs",
+              "RelativeDocumentMoniker": "IntuneNetworkPrintMapping\\PrinterSettings.cs",
+              "ToolTip": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\PrinterSettings.cs",
+              "RelativeToolTip": "IntuneNetworkPrintMapping\\PrinterSettings.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T07:41:44.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\Program.cs",
               "RelativeDocumentMoniker": "IntuneNetworkPrintMapping\\Program.cs",
@@ -39,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "UnconfiguredNoticeWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\UnconfiguredNoticeWindow.xaml.cs",
               "RelativeDocumentMoniker": "IntuneNetworkPrintMapping\\UnconfiguredNoticeWindow.xaml.cs",
@@ -47,24 +119,18 @@
               "RelativeToolTip": "IntuneNetworkPrintMapping\\UnconfiguredNoticeWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T20:21:54.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T20:21:54.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "UnconfiguredNoticeWindow.xaml",
               "DocumentMoniker": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\UnconfiguredNoticeWindow.xaml",
               "RelativeDocumentMoniker": "IntuneNetworkPrintMapping\\UnconfiguredNoticeWindow.xaml",
               "ToolTip": "C:\\Users\\hauke\\GitHub\\Intune-Printer-Mapping-Tool\\Code\\Program\\IntuneNetworkPrintMapping\\UnconfiguredNoticeWindow.xaml",
               "RelativeToolTip": "IntuneNetworkPrintMapping\\UnconfiguredNoticeWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-12T20:20:32.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-08-12T20:20:32.626Z"
             }
           ]
         }

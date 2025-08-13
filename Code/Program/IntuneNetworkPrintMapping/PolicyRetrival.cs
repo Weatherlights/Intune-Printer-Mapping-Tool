@@ -213,6 +213,21 @@ namespace IntuneNetworkPrintMapping
             }
         }
 
+        public int getPrinterConfigurationRefreshIntervall()
+        {
+            try
+            {
+                if (TestRegistryKeyValue("PrinterConfigurationRefreshInterval", policyStoreKeyMachine))
+                    return (int)policyStoreKeyMachine.GetValue("PrinterConfigurationRefreshInterval");
+                else
+                    return 3600;
+            }
+            catch (Exception e)
+            {
+                return 3600;
+            }
+        }
+
         public bool isNetworkTestEnabled()
         {
             try
