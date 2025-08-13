@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<policyDefinitions revision="1.0.4.0" schemaVersion="1.0">
+<policyDefinitions revision="1.0.5.0" schemaVersion="1.0">
   <policyNamespaces>
     <target prefix="IPM" namespace="Intune-Printer-Mapping.Configuration"/>
   </policyNamespaces>
