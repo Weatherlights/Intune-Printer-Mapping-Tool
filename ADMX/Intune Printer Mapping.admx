@@ -1252,7 +1252,7 @@
         <boolean id="Printer_29_Machine_SetDefault" key="Software\Policies\weatherlights.com\NetworkPrintMapping\Policies\29" valueName="SetDefault" />
       </elements>
     </policy>
-
+  <!-- This policy only contains 30 slots but you can add as many as you like by making a copy of the policy element and adjust the numbers or you use the powershell script that is part of the repository. -->
 
 
   </policies>
