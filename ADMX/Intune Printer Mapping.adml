@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions" revision="1.0.5.0" schemaVersion="1.0">
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions" revision="1.0" schemaVersion="1.0">
   <displayName>Intune-Printer-Mapping</displayName>
   <description>Intune-Printer-Mapping</description>
   <resources>
@@ -268,22 +268,13 @@ Configurations will only be applied when this configuration is set to Enabled.
     </stringTable>
     <presentationTable>
       <presentation id="RefreshInterval">
-        <decimalTextBox  refId="RefreshInterval">
-          <label>Refresh interval</label>
-          <defaultValue>10000</defaultValue>
-        </decimalTextBox >
+        <decimalTextBox  refId="RefreshInterval" defaultValue="10000">Refresh interval</decimalTextBox >
       </presentation>
       <presentation id="UpdateInterval">
-        <decimalTextBox  refId="UpdateInterval">
-          <label>Update interval</label>
-          <defaultValue>10800</defaultValue>
-        </decimalTextBox >
+        <decimalTextBox  refId="UpdateInterval" defaultValue="10800">Update interval</decimalTextBox >
       </presentation>
       <presentation id="PrinterConfigurationRefreshInterval">
-        <decimalTextBox  refId="PrinterConfigurationRefreshInterval">
-          <label>Printer configuration refresh interval</label>
-          <defaultValue>3600</defaultValue>
-        </decimalTextBox >
+        <decimalTextBox  refId="PrinterConfigurationRefreshInterval" defaultValue="3600">Printer configuration refresh interval</decimalTextBox >
       </presentation>
 
 <presentation id="Printer_0_User_Presentation">
